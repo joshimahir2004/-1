@@ -4,8 +4,8 @@
 }
 
 body{
-    background-image: url(img/mainbg.jpg);
-  
+    /* background-image: url(img/pattern-black-gradient-texture-wallpaper-preview.jpg); */
+  background-image: url(img/notebook-natural-laptop-macbook.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }

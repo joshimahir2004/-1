@@ -1,8 +1,8 @@
 .nav {
-
-	padding: 1.5rem;
+	
+	padding: 1.2rem;
 	display: flex;
-
+	border-bottom: 3px solid rgb(1, 234, 255);
 }
 
 .nav li {
@@ -21,44 +21,30 @@
 }
 
 .nav ul li a {
+	font-weight: 3px;
 font-family: monospace;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	/* padding: 0 1.5rem; */
 
-	color: #f09;
-	
+	color:rgb(255, 255, 255);
+    text-shadow: 1px white;
 	text-decoration: none;
-
-	text-shadow:  
-	0 1px 42px rgba(7, 119, 211, 0.252),
-	0 0 82px rgba(7, 119, 211, 0.252),
-	0 0 92px rgba(7, 119, 211, 0.252),
-	0 0 102px rgba(7, 119, 211, 0.252),
-	0 0 151px rgba(7, 119, 211, 0.252);
 	
 	
 }
 
-.nav:hover{
-	display: flex;
-	background-color: transparent;
-	transition: 2s;
-	/* transform: scale(0.9) translate(-1%, -2%); */
-	color: black;
-	
-	text-shadow: none;
+
+.nav a:hover{
+   	transition: 0.3s;
+	color: rgba(255, 121, 18, 0.988);
 }
 
-.nav a:hover {
-	transition: 0.7s;
-	color: rgb(0, 195, 255);
-	text-shadow: none;
-}
 
 /*------------------------------------ LOGO----------------------------------  */
 .logo {
+	
 	margin: 2rem;
-position: fixed;
+	position: fixed;
 	display: flex;
 	width: 46px;
 	height: 46px;
