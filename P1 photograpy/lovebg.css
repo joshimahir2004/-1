@@ -1,0 +1,58 @@
+body{
+    
+    background-image: url(L/fireworks-orange-dark-blured.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   
+}
+h3{
+    padding: 0 3rem;
+}
+.Love{
+   
+    grid-template-columns: 200px 200px 200px;
+    padding: 3rem;
+    color: white;
+    padding: 3rem;
+    display: flex;
+    
+}
+
+#lone{
+    display: grid;
+    width: 230px;
+    border: solid black;
+    border: block end width 2rem;
+background-image: url(L/bea79e44fc782d79a70a5e7d2e2df6b3.jpg);
+   
+    color: black;
+}
+#ltwo{
+    display: grid;
+    width: 600px;
+    border: solid black;
+    border: block end width 2rem;
+background-image: url(L/bea79e44fc782d79a70a5e7d2e2df6b3.jpg);
+   
+    color: black;
+}
+#lthree{
+    display:inline-block;
+    width: 350px;
+    border: solid black;
+    border: block end width 2rem;
+    background-image: url(L/bea79e44fc782d79a70a5e7d2e2df6b3.jpg);
+    
+    color: black;
+}
+#lfour{
+    display:inline-block;
+    width: 350px;
+    border: solid black;
+    border: block end width 2rem;
+    background-image: url(L/bea79e44fc782d79a70a5e7d2e2df6b3.jpg);
+    
+    color: black;
+}
+

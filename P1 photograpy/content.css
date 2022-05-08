@@ -40,7 +40,7 @@
     
 }
 #s1{
-    
+   
     padding: 0 4rem;
     background-color: var(--orange);
     border: solid;
@@ -139,6 +139,8 @@ background-color: var(--orange);
     background-color: aqua;
 }
 /* ------------------------------------------------------------------------------------- */
+
+
 .part1:hover{
     transition:1s;
     transform: translateX(2rem);
