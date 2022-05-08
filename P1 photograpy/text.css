@@ -6,10 +6,24 @@
     padding:  2rem;
     justify-content: center;
     font-size: 1.5rem;
-
 }
 
 .text:hover{
     transition: 1.2s;
     color: aqua;
 }
+span{
+    animation: waviy 4s;
+
+}
+@keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0);
+      transition-delay: 5s;
+    }
+    20% {
+        transform: translateY(-20px);
+        transition-delay: 5s;
+    }
+  }
+

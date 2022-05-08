@@ -3,4 +3,145 @@
     display: flex;
     padding: 0 2rem;
     font-size: large;
+    animation: side 5s ;
+   
 }
+@keyframes side {
+    0%,40%,100% {
+        transform: translateX(0);
+        transition-delay: 5s;
+    }
+    20%{
+        transform: translateX(20px);
+        transition-delay:5s;
+    }
+}
+
+
+
+#c1{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    /* padding:2rem; */
+    /* background-color: rgba(0, 0, 0, 0.208); */
+    
+/* color: white; */
+    padding-top: 5px;
+}
+
+.header li{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    list-style-type: none;
+    list-style-type: none;
+    list-style-type: none;
+    
+}
+#s1{
+    
+    padding: 0 4rem;
+    background-color: var(--orange);
+    border: solid;
+    border-left : 30px ;
+    text-align: center;
+    
+}
+#s2{
+    padding: 0 4rem;
+background-color: var(--orange);
+
+background-repeat: no-repeat;
+    /* padding: 0.5rem; */
+    border: solid;
+    border-left : 30px ;
+    text-align: center;
+    
+}
+#s3{
+    padding: 0 4rem;
+    display: flex;
+background-color: var(--orange);
+   
+    border: solid;
+    border-left : 30px ;
+    text-align: center;
+}
+#s4{
+    padding: 0 4rem;
+    background-color: var(--orange);
+    /* padding: 0.5rem; */
+    border: solid;
+    border-left : 30px ;
+}
+#s5{
+    padding: 0 4rem;
+    background-color: var(--orange);
+    /* padding: 0.5rem; */
+    border: solid;
+    border-left : 30px ;
+}
+#s1 a{
+    
+    text-decoration: none;
+   
+    
+ }
+#s2 a{
+   
+    text-decoration: none;
+}
+#s3 a{
+   
+    text-decoration: none;
+}
+#s4 a{
+    text-decoration: none;
+}
+#s5 a{
+    text-decoration: none;
+}
+#s1:hover{
+    transform: translateX(-2rem);
+    transition: 0.6s;
+    
+}
+#s2:hover{
+    transition: 0.6s;
+    transform: translateX(-2rem);
+}
+#s3:hover{
+    transition: 0.6s;
+    transform: translateX(-2rem);
+}
+#s4:hover{
+    transition: 0.6s;
+    transform: translateX(-2rem);
+}
+#s5:hover{
+    transition: 0.6s;
+    transform: translateX(-2rem);
+}
+#s1:active{
+    background-color: aqua;
+}
+#s2:active{
+    background-color: aqua;
+}
+#s3:active{
+    background-color: aqua;
+}
+#s4:active{
+    background-color: aqua;
+}
+#s5:active{
+    background-color: aqua;
+}
+/* ------------------------------------------------------------------------------------- */
+.part1:hover{
+    transition:1s;
+    transform: translateX(2rem);
+}
+
+
